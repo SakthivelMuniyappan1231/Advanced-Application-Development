@@ -1,0 +1,58 @@
+.roll-background {
+    background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.roll {
+    max-width: 600px;
+    background-color: rgba(246, 236, 236, 0.507);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.en-roll {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+.en-name {
+    font-weight: bold;
+}
+
+.en-span {
+    color: red;
+}
+
+.en-box,
+.en-box-2 {
+    width: 100%;
+}
+
+.en-input,
+.en-input-2 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.en-button {
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.824);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.en-button:hover {
+    background-color: #45a049;
+}
